@@ -17,6 +17,7 @@ p {
     font-size: 16px;
 }
 
+/* Places the company logo at the left of the header with a navigation bar at the right */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +51,7 @@ p {
     margin-left: 25px;
 }
 
+/* Places the hero image as the first thing new visitors will see */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,12 +61,14 @@ p {
     background-position: center;
 }
 
+/* sets the content class children to display in a block on the left 75% of the screen */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets individual block properties for the three divisions */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,6 +87,7 @@ p {
     font-size: 36px;
 }
 
+/* setup for the right sidebar that lists other benefits of the service */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,6 +115,7 @@ p {
     max-width: 150px;
 }
 
+/* setup for the footer with a copyright notice */
 .footer {
     padding: 30px;
     clear: both;
@@ -121,6 +127,7 @@ p {
     font-size: 20px;
 }
 
+/* Extra classes for when a float property needs to be applied */
 .float-left {
     float: left;
     margin-right: 25px;
